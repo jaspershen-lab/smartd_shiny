@@ -910,37 +910,49 @@ ui <- dashboardPage(
           height = "80px",
           style = "margin-right: 15px;"
         ),
+        # Add vertical line
+        div(
+          style = "border-left: 1px solid #ccc; height: 50px; margin-right: 15px;"
+        ),
         tags$img(
           src = "SUSig_Red_Stree_Stacked_Left.png",
           height = "80px",
           style = "margin-right: 15px;"
+        ),
+        # Add vertical line
+        div(
+          style = "border-left: 1px solid #ccc; height: 50px; margin-right: 15px;"
         ),
         tags$img(
           src = "ucsf_logo.png",
           height = "50px",
           style = "margin-right: 15px;"
         ),
+        # Add vertical line
+        div(
+          style = "border-left: 1px solid #ccc; height: 50px; margin-right: 15px;"
+        ),
         div(
           # HTML("The Shen Lab at Nanyang Technological University Singapore"),
-          HTML("<br>"),
+          # HTML("<br>"),
           tags$a(
             href = "http://www.shen-lab.org",
             target = "_blank",
-            tags$i(class = "fa fa-house", style = "color: #e04c3c;"),
+            tags$i(class = "fa fa-house", style = "color: purple;"),
             " Shen Lab",
             style = "text-align: left; margin-left: 10px;"
           ),
           tags$a(
             href = "https://www.shen-lab.org/#contact",
             target = "_blank",
-            tags$i(class = "fa fa-envelope", style = "color: #e04c3c;"),
+            tags$i(class = "fa fa-envelope", style = "color: purple;"),
             " Email",
             style = "text-align: left; margin-left: 10px;"
           ),
           tags$a(
             href = "https://github.com/jaspershen/mapa",
             target = "_blank",
-            tags$i(class = "fa fa-github", style = "color: #e04c3c;"),
+            tags$i(class = "fa fa-github", style = "color: purple;"),
             " GitHub",
             style = "text-align: left; margin-left: 10px;"
           ),
